@@ -1,11 +1,11 @@
 name = input("What is your name? ")
 age = int(input("What is your age? "))
 faveNum = int(input("What is your favourite number? "))
-fiveYears = int((age + 5))
-tenYears = int((age + 10))
-twentyYears = int((age + 20))
-faveNumDouble = int((faveNum * 2))
-faveNumByTen = int((faveNum * 10))
+fiveYears = age + 5
+tenYears = age + 10
+twentyYears = age + 20
+faveNumDouble = faveNum * 2
+faveNumByTen = faveNum * 10
 
 print("=== About Me ===")
 print(f"Name: {name}")
