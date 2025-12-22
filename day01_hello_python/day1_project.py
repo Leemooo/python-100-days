@@ -1,0 +1,22 @@
+name = input("What is your name? ")
+age = int(input("What is your age? "))
+faveNum = int(input("What is your favourite number? "))
+fiveYears = int((age + 5))
+tenYears = int((age + 10))
+twentyYears = int((age + 20))
+faveNumDouble = int((faveNum * 2))
+faveNumByTen = int((faveNum * 10))
+
+print("=== About Me ===")
+print(f"Name: {name}")
+print(f"Current Age: {age}")
+print(f"Favourite Number: {faveNum}")
+
+print("=== Age Calculator ===")
+print(f"In 5 years, I'll be: {fiveYears}")
+print(f"In 10 years, I'll be: {tenYears}")
+print(f"In 20 years, I'll be: {twentyYears}")
+
+print("=== Number Fun ===")
+print(f"My favourite number doubled: {faveNumDouble}")
+print(f"My favourite number times 10: {faveNumByTen}")
